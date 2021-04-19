@@ -12,40 +12,49 @@ body{
 }
 header h1
     {
-    text-align: left;
-    font-size: 50px;
+    text-align:center;
+    font-size: 55px;
+    font-family:cursive;
     font-style: bold;
-    color: rgb(11, 12, 12);
+    color: rgb(5, 5, 5);
+    background:rgba(224, 127, 31, 0.349);
+    }
+    header h2
+    {
+    text-align:center;
+    font-size: 30px;
+    font-style: italic;
+    font-family:cursive;
+    color: rgb(228, 245, 245);
     }
 header
 {
-    padding: 30px 0;
-    background-color:none;
+    padding: 40px 0px;
+    background: url('pexels-sebastian-voortman-189349.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
     width: 100%;
 	float: left;
-	height: 120px;
+	height: 100%;
 }
 html { 
 	scroll-behavior: smooth;
-    background: url('jrD39m.png'); 
-    background-position: center center;
-    background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-color:#e7f2f3;
+    background-color: rgb(222, 242, 248);
   }
 h1
 {
     color: rgb(7, 7, 7);
     font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
 }
 nav  
 {
     text-align: center;
-    background-color: rgb(247, 247, 223);
+    background-color: rgb(61, 61, 59);
     width: 100%;
     height: auto;
-    padding-bottom: 40px;
+    padding-bottom:47px;
     cursor: pointer;
 }
 
@@ -53,7 +62,7 @@ nav a
 {   
     font: inherit,bold,large;
     font-size: 15px;
-    color: rgb(14, 13, 13);
+    color: rgb(255, 255, 255);
     padding: 10px;
     float:left;
     text-decoration:none !important;
