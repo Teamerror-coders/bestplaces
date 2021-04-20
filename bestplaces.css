@@ -123,6 +123,7 @@ h6 {
 img {
     margin: 10px 5px;
     border-radius: 8px;
+	padding-bottom: 50px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
 }
 
